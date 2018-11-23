@@ -11,7 +11,9 @@ function myFirstApp(name, age) {
 		"java",
 		"xml"
 		];
-		console.log(skills);
+		for (let i = 0; i < skills.length; i++) {
+			console.log("Я владею: " + skills[i]);
+		}
 	}
 
 	function checkAge(){
