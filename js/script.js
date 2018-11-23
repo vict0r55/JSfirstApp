@@ -25,7 +25,7 @@ function myFirstApp(name, age) {
 	}
 
 	function calcPow(num) {
-		num *= 2;
+		num *= num;
 		console.log(num);
 	}
 
