@@ -15,10 +15,10 @@ function myFirstApp(name, age) {
 	}
 
 	function checkAge(){
-		if (age > 18) {
+		if (age >= 18) {
 			console.log('Вы можете смотреть "интересные" видео ;)');
 		} else {
-			console.log('Вы еще слишком малы для того что бы смотреть "интересные" видео!');
+			console.log('Вы еще не можете смотреть "интересные" видео!');
 		}
 	}
 
